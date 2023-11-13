@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.10.12
+Created-By: 8.0.7.6 - pmz6480sr7fp6-20220330_01(SR7 FP6) (IBM Corporat
+ ion)
+Bundle-ManifestVersion: 2
+Bundle-Name: DBB Toolkit
+Bundle-SymbolicName: com.ibm.dbb.toolkit
+Bundle-Version: 2.0.0
+Bundle-Vendor: IBM
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.junit,org.junit.jupiter.api,org.junit.jupiter.engi
+ ne,org.junit.jupiter.migrationsupport,org.junit.jupiter.params,org.ju
+ nit.platform.commons,org.junit.platform.engine,org.junit.platform.lau
+ ncher,org.junit.platform.runner,org.junit.platform.suite.api,org.juni
+ t.vintage.engine,org.hamcrest.core,org.opentest4j,org.apiguardian
+Export-Package: com.ibm.dbb.build,com.ibm.dbb,com.ibm.dbb.build.intern
+ al;x-friends:="com.ibm.dbb.build.html",com.ibm.dbb.build.report,com.i
+ bm.dbb.build.report.records,com.ibm.dbb.dependency,com.ibm.dbb.metada
+ ta,com.ibm.dbb.migration,com.ibm.json.java,com.ibm.json.xml
+Bundle-ClassPath: .,lib/JSON4J.jar
+
