@@ -19,3 +19,4 @@
 *.json zos-working-tree-encoding=ibm-1148
 *.jcl zos-working-tree-encoding=ibm-1148
 *.pli zos-working-tree-encoding=ibm-1148
+*.java zos-working-tree-encoding=ibm-1148
